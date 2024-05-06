@@ -9,15 +9,6 @@ namespace ConsoleApp3
 {
     internal class Program
     {
-        public class VandQuiz
-        {
-            public string Spørgsmål { get; set; }
-            public string Svarmulighed1 { get; set; }
-            public string Svarmulighed2 { get; set; }
-            public string Svarmulighed3 { get; set; }
-            public string hint { get; set; }
-            public int TrueAnswer { get; set; } = 0;
-        }
 
         static void Main(string[] args)
         {
