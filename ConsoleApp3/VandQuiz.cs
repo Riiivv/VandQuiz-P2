@@ -9,9 +9,7 @@ namespace ConsoleApp3
     public class VandQuiz
     {
         public string Spørgsmål { get; set; }
-        public string Svarmulighed1 { get; set; }
-        public string Svarmulighed2 { get; set; }
-        public string Svarmulighed3 { get; set; }
+        public List<string> Svarmuligheder { get; set; }
         public string hint { get; set; }
         public int TrueAnswer { get; set; } = 0;
     }
